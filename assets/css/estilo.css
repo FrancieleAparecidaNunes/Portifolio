@@ -1,6 +1,42 @@
+/* Estilos padrões para todas as telas*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 body {
-    height: 100vh;
-    background: url('../img/cod.jpg');
-    background-size: cover;
-    background-position: center;
+
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 200;
+    font-size: 1rem;
 }
+
+.banner{
+    height: 70vh;
+    background: url('../img/cod.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+/*`sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+ }
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+
+ }
+
+/* `xl` applies to large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+
+ }
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { 
+
+ }
